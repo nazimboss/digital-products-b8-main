@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(7, 7, 7, 0.75));
+    padding: 15px;
+}
+.logo{
+    width: 190px;
+}
+.what{
+    display: flex;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+nav li a:hover{
+    color: red;
+}
+.know{
+    width: 370px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 880px;
+}
+.khajli h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    text-align: justify;
+}
+.khajli p{
+    font-weight: 100;
+    line-height: 60px;
+    text-align: justify;
+}
+button{
+    background-color: red;
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+article{
+    background-image: linear-gradient(rgba(27, 24, 24, 0.75), rgba(95, 95, 95, 0.75), rgba(11, 1, 1, 0.75)), url(/images/background.png);
+    color: #fff;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    flex-direction: row-reverse;
+}
+.amar{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    height: 80px;
+}
+.car{
+    margin-bottom: 150px;
+}
+.car h3{
+    font-weight: 300;
+    line-height: 23px;
+}
+.car p{
+    margin-top: 8px;
+}
+.box{
+    margin-top: 20px;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    color: #fff;
+    align-items: center;
+}
+.dop{
+    width: 100px;
+}
+.jan{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(87, 83, 83, 0.75)), url(/images/background.png);
+}
+.ajana{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color: #fff;
+}
+.xox{
+    margin: 40px;
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    box-shadow: 10px 10px 10px 10px #22aeff;
+}
+.xox h1{
+    line-height: 40px;
+}
+.xox p{
+    line-height: 25px;
+    font-weight: bold;
+}
+.xox button{
+    width: 100px;
+    margin-top: 10px;
+    background-color: gray;
+    color: #fff;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+}
+.sorry{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.ufhu{
+    width: 120px;
+    background-color: rgb(12, 11, 11);
+}
+.pakhi{
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+}
+.alhamdulillah{
+    width: 200px;
+}
+.alhamdulillah li{
+    list-style: none;
+    line-height: 30px;
+}
+.alhamdulillah p{
+    line-height: 30px;
+}
